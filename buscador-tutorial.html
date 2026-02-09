@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Frontend</title>
+
+    <!-- pego el enlace de fontawesome IMPORTANTE tiene que ser encima de stylesheet-->
+    <script src="https://kit.fontawesome.com/98f7a5d46f.js" crossorigin="anonymous"></script>
+    
+    <!-- importamos la fuente lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <div class="container container-buscador">
+    <!-- al denominarlo así, toma el CSS de container y además el de container-buscador
+    de esta manera podemos tener una apariencia general para algunos elementos y específica para otros -->
+        <!-- logo -->
+        <div class="homepage-logo">
+            <img src="ds_circle_logo.png" alt="">
+        </div>
+
+        <!-- search box -->
+        <div class="homepage-search-bar">
+            <!-- el unicode tenemos que envolverlo con &#x****; -->
+            <input type="text" placeholder="&#xf002; Search DailySmarty">
+            <!-- press return to search -->
+            <p>Press return to search</p>
+        </div>
+
+        <!-- recent posts -->
+        <div class="recent-posts-wapper">
+            <div class="recent-posts-heading">
+                Recent Posts
+            </div>
+
+            <div class="recent-posts">
+                <div class="recent-post">
+                    <div class="recent-post-title">
+                        Guide to rendering points on a Google Map
+                    </div>
+                    <div class="recent-post-category">
+                        JavaScript
+                    </div>
+                </div>
+
+                <div class="recent-post">
+                    <div class="recent-post-title">
+                        Guide to rendering points on a Google Map
+                    </div>
+                    <div class="recent-post-category">
+                        JavaScript
+                    </div>
+                </div>
+
+                <div class="recent-post">
+                    <div class="recent-post-title">
+                        Guide to rendering points on a Google Map
+                    </div>
+                    <div class="recent-post-category">
+                        JavaScript
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
